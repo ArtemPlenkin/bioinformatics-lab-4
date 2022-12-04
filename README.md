@@ -24,4 +24,5 @@ python3 00-helloworld/helloworld.py show
 python3 00-helloworld/helloworld.py run
 ```
 Как результат работы получаем:  
-[Папка metaflow](/.metaflow)
+1. [Папка metaflow](/.metaflow)
+2. [Логи](/metaflow.log)
