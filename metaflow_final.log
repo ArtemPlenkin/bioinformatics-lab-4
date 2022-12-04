@@ -1,0 +1,104 @@
+Metaflow 2.7.15 executing LinearFlow for user:artem
+Validating your flow...
+    The graph looks good!
+Running pylint...
+    Pylint is happy!
+2022-12-04 16:08:38.938 Workflow starting (run-id 1670144918934500):
+2022-12-04 16:08:38.941 [1670144918934500/start/1 (pid 1272)] Task is starting.
+2022-12-04 16:08:39.359 [1670144918934500/start/1 (pid 1272)] Started analysis of SRR8533688.fastq.gz
+2022-12-04 16:08:40.089 [1670144918934500/start/1 (pid 1272)] Approx 5% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:40.636 [1670144918934500/start/1 (pid 1272)] Approx 10% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:41.170 [1670144918934500/start/1 (pid 1272)] Approx 15% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:41.696 [1670144918934500/start/1 (pid 1272)] Approx 20% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:42.224 [1670144918934500/start/1 (pid 1272)] Approx 25% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:42.748 [1670144918934500/start/1 (pid 1272)] Approx 30% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:43.266 [1670144918934500/start/1 (pid 1272)] Approx 35% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:43.787 [1670144918934500/start/1 (pid 1272)] Approx 40% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:44.307 [1670144918934500/start/1 (pid 1272)] Approx 45% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:44.815 [1670144918934500/start/1 (pid 1272)] Approx 50% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:45.316 [1670144918934500/start/1 (pid 1272)] Approx 55% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:45.814 [1670144918934500/start/1 (pid 1272)] Approx 60% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:46.310 [1670144918934500/start/1 (pid 1272)] Approx 65% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:46.817 [1670144918934500/start/1 (pid 1272)] Approx 70% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:47.315 [1670144918934500/start/1 (pid 1272)] Approx 75% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:47.816 [1670144918934500/start/1 (pid 1272)] Approx 80% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:48.320 [1670144918934500/start/1 (pid 1272)] Approx 85% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:48.820 [1670144918934500/start/1 (pid 1272)] Approx 90% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:49.325 [1670144918934500/start/1 (pid 1272)] Approx 95% complete for SRR8533688.fastq.gz
+2022-12-04 16:08:49.829 [1670144918934500/start/1 (pid 1272)] Analysis complete for SRR8533688.fastq.gz
+2022-12-04 16:08:51.401 [1670144918934500/start/1 (pid 1272)] Task finished successfully.
+2022-12-04 16:08:51.404 [1670144918934500/second/2 (pid 1301)] Task is starting.
+2022-12-04 16:08:51.782 [1670144918934500/second/2 (pid 1301)] [bwa_index] Pack FASTA... 0.06 sec
+2022-12-04 16:08:52.856 [1670144918934500/second/2 (pid 1301)] [bwa_index] Construct BWT for the packed sequence...
+2022-12-04 16:08:52.857 [1670144918934500/second/2 (pid 1301)] [bwa_index] 1.06 seconds elapse.
+2022-12-04 16:08:52.909 [1670144918934500/second/2 (pid 1301)] [bwa_index] Update BWT... 0.03 sec
+2022-12-04 16:08:52.967 [1670144918934500/second/2 (pid 1301)] [bwa_index] Pack forward-only FASTA... 0.03 sec
+2022-12-04 16:08:53.456 [1670144918934500/second/2 (pid 1301)] [bwa_index] Construct SA from BWT and Occ... 0.47 sec
+2022-12-04 16:08:53.497 [1670144918934500/second/2 (pid 1301)] [main] Version: 0.7.17-r1188
+2022-12-04 16:08:53.497 [1670144918934500/second/2 (pid 1301)] [main] CMD: bwa index ref_genome.fna
+2022-12-04 16:08:53.497 [1670144918934500/second/2 (pid 1301)] [main] Real time: 1.800 sec; CPU: 1.643 sec
+2022-12-04 16:08:53.498 [1670144918934500/second/2 (pid 1301)] Task finished successfully.
+2022-12-04 16:08:53.501 [1670144918934500/third/3 (pid 1306)] Task is starting.
+2022-12-04 16:08:53.747 [1670144918934500/third/3 (pid 1306)] [M::bwa_idx_load_from_disk] read 0 ALT contigs
+2022-12-04 16:08:53.849 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:08:53.956 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:08:59.522 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.773 CPU sec, 5.673 real sec
+2022-12-04 16:08:59.659 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:04.953 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.558 CPU sec, 5.431 real sec
+2022-12-04 16:09:05.147 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:10.406 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.633 CPU sec, 5.453 real sec
+2022-12-04 16:09:10.598 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:15.893 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.674 CPU sec, 5.487 real sec
+2022-12-04 16:09:16.091 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:21.475 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.769 CPU sec, 5.582 real sec
+2022-12-04 16:09:21.610 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:26.998 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.646 CPU sec, 5.522 real sec
+2022-12-04 16:09:27.149 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:32.437 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.579 CPU sec, 5.439 real sec
+2022-12-04 16:09:32.680 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:37.941 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.729 CPU sec, 5.504 real sec
+2022-12-04 16:09:38.104 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:43.417 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.633 CPU sec, 5.475 real sec
+2022-12-04 16:09:43.555 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:48.870 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.582 CPU sec, 5.454 real sec
+2022-12-04 16:09:49.009 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:54.276 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.537 CPU sec, 5.406 real sec
+2022-12-04 16:09:54.412 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:09:59.699 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.544 CPU sec, 5.423 real sec
+2022-12-04 16:09:59.847 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:05.290 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.729 CPU sec, 5.591 real sec
+2022-12-04 16:10:05.425 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:10.748 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.577 CPU sec, 5.458 real sec
+2022-12-04 16:10:10.916 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:16.217 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.624 CPU sec, 5.469 real sec
+2022-12-04 16:10:16.375 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:21.673 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.610 CPU sec, 5.457 real sec
+2022-12-04 16:10:21.810 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:27.115 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.567 CPU sec, 5.442 real sec
+2022-12-04 16:10:27.245 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:34.796 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 7.802 CPU sec, 7.681 real sec
+2022-12-04 16:10:34.960 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:40.158 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.515 CPU sec, 5.362 real sec
+2022-12-04 16:10:40.311 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:45.544 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.528 CPU sec, 5.385 real sec
+2022-12-04 16:10:45.683 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:51.136 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.723 CPU sec, 5.592 real sec
+2022-12-04 16:10:51.295 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:10:56.530 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.537 CPU sec, 5.394 real sec
+2022-12-04 16:10:56.667 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:11:01.882 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.472 CPU sec, 5.352 real sec
+2022-12-04 16:11:02.022 [1670144918934500/third/3 (pid 1306)] [M::process] read 66226 sequences (10000126 bp)...
+2022-12-04 16:11:07.246 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.490 CPU sec, 5.364 real sec
+2022-12-04 16:11:07.306 [1670144918934500/third/3 (pid 1306)] [M::process] read 2846 sequences (429746 bp)...
+2022-12-04 16:11:12.775 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 66226 reads in 5.584 CPU sec, 5.529 real sec
+2022-12-04 16:11:13.016 [1670144918934500/third/3 (pid 1306)] [M::mem_process_seqs] Processed 2846 reads in 0.275 CPU sec, 0.242 real sec
+2022-12-04 16:11:13.475 [1670144918934500/third/3 (pid 1306)] [main] Version: 0.7.17-r1188
+2022-12-04 16:11:13.515 [1670144918934500/third/3 (pid 1306)] [main] CMD: bwa mem ref_genome.fna SRR8533688.fastq.gz
+2022-12-04 16:11:13.515 [1670144918934500/third/3 (pid 1306)] [main] Real time: 139.729 sec; CPU: 142.798 sec
+2022-12-04 16:11:13.515 [1670144918934500/third/3 (pid 1306)] Task finished successfully.
+2022-12-04 16:11:13.531 [1670144918934500/forth/4 (pid 1365)] Task is starting.
+2022-12-04 16:11:14.481 [1670144918934500/forth/4 (pid 1365)] Task finished successfully.
+2022-12-04 16:11:14.485 [1670144918934500/end/5 (pid 1370)] Task is starting.
+2022-12-04 16:11:14.747 [1670144918934500/end/5 (pid 1370)] Not OK
+2022-12-04 16:11:14.809 [1670144918934500/end/5 (pid 1370)] Task finished successfully.
+2022-12-04 16:11:14.810 Done!
