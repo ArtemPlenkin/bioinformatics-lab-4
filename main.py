@@ -4,7 +4,7 @@ from metaflow import FlowSpec, step
 class LinearFlow(FlowSpec):
 
     @step
-    def first(self):
+    def start(self):
         os.system('fastqc SRR8533688.fastq.gz')
         self.next(self.second)
 
@@ -21,10 +21,10 @@ class LinearFlow(FlowSpec):
     @step
     def third(self):
         os.system('samtools flagstat result.sam > final')
-        self.next(self.fifth)
+        self.next(self.end)
 
     @step
-    def fifth(self):
+    def end(self):
         os.system('python3 quality_check.py final')
 
 if __name__ == '__main__':
