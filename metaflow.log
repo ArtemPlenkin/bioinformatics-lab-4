@@ -1,0 +1,17 @@
+Metaflow 2.7.15 executing HelloFlow for user:artem
+Creating local datastore in current directory (/home/artem/bioinformatics-lab-4/.metaflow)
+Validating your flow...
+    The graph looks good!
+Running pylint...
+    Pylint is happy!
+2022-12-04 13:30:57.024 Workflow starting (run-id 1670135457018597):
+2022-12-04 13:30:57.027 [1670135457018597/start/1 (pid 781)] Task is starting.
+2022-12-04 13:30:57.288 [1670135457018597/start/1 (pid 781)] HelloFlow is starting.
+2022-12-04 13:30:57.330 [1670135457018597/start/1 (pid 781)] Task finished successfully.
+2022-12-04 13:30:57.334 [1670135457018597/hello/2 (pid 784)] Task is starting.
+2022-12-04 13:30:57.571 [1670135457018597/hello/2 (pid 784)] Metaflow says: Hi!
+2022-12-04 13:30:57.620 [1670135457018597/hello/2 (pid 784)] Task finished successfully.
+2022-12-04 13:30:57.623 [1670135457018597/end/3 (pid 787)] Task is starting.
+2022-12-04 13:30:57.880 [1670135457018597/end/3 (pid 787)] HelloFlow is all done.
+2022-12-04 13:30:57.920 [1670135457018597/end/3 (pid 787)] Task finished successfully.
+2022-12-04 13:30:57.921 Done!
