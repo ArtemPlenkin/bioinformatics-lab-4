@@ -19,7 +19,7 @@ class LinearFlow(FlowSpec):
         self.next(self.forth)
 
     @step
-    def third(self):
+    def forth(self):
         os.system('samtools flagstat result.sam > final')
         self.next(self.end)
 
