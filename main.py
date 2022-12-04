@@ -5,7 +5,7 @@ class LinearFlow(FlowSpec):
 
     @step
     def start(self):
-        os.system('ls -l')
+        os.system('fastqc SRR8533688.fastq.gz')
         self.my_var = 'hello world'
         self.next(self.a)
 
