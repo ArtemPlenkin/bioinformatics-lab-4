@@ -33,7 +33,7 @@ python3 00-helloworld/helloworld.py run
 2. Все сгенерированные файлы в ходе работы пайплайна [здесь](/generated)
 3. По итогу в консоль выводится результат "OK" или "Not OK"
 4. [Лог из консоли](/metaflow_final.log)
-5. Визуализация пайплайна автоматическим инстурментом *card view*
+5. Визуализация пайплайна автоматически, через введение команды *python3 main.py card get start mycard.html*, а также подставив @card перед основным алгоритмом. Тем самым сгенерируется файл [mycard.html](/generated/mycard.html)
 ![image](https://user-images.githubusercontent.com/61593324/205484488-eb8d970d-102a-4dff-a87d-97d34f663c16.png)
 
 Здесь каждый блок схемы отвечает за выполнение команды [скрипта](/input/bash.sh)
