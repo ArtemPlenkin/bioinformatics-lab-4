@@ -1,8 +1,9 @@
 import os
-from metaflow import FlowSpec, step
+from metaflow import FlowSpec, step, card
 
 class LinearFlow(FlowSpec):
 
+    @card
     @step
     def start(self):
         os.system('fastqc SRR8533688.fastq.gz')

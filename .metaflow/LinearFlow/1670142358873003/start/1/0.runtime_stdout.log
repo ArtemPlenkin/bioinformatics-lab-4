@@ -1,0 +1,17 @@
+[MFLOG|0|2022-12-04T08:25:59.402068Z|runtime|971e28f0-d316-47d9-933a-8e82584c9244]total 111668
+[MFLOG|0|2022-12-04T08:25:59.456826Z|runtime|da97c753-3231-4932-9ce0-68ead495b94b]-rw-r--r-- 1 artem artem      1085 Dec  4 15:25 README.md
+[MFLOG|0|2022-12-04T08:25:59.456987Z|runtime|84050d9e-f39f-4d90-93f4-49ebaf9e2f00]-rw-r--r-- 1 artem artem 100656287 Dec  4 12:11 SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T08:25:59.457076Z|runtime|44a86b86-1653-4aab-ab8d-760cbb571133]-rw-r--r-- 1 artem artem    510138 Dec  4 12:12 SRR8533688_fastqc.html
+[MFLOG|0|2022-12-04T08:25:59.457183Z|runtime|825e6f14-4318-402e-8310-09c7bfaaaa0f]-rw-r--r-- 1 artem artem    306248 Dec  4 12:12 SRR8533688_fastqc.zip
+[MFLOG|0|2022-12-04T08:25:59.457266Z|runtime|8686cdce-eb01-4ee5-82b8-56feac39a497]-rw-r--r-- 1 artem artem       185 Dec  4 13:30 bash.sh
+[MFLOG|0|2022-12-04T08:25:59.457364Z|runtime|374b3de6-46f3-45ee-aa4a-b077efb379a9]-rw-r--r-- 1 artem artem       476 Dec  4 12:16 final
+[MFLOG|0|2022-12-04T08:25:59.457459Z|runtime|491373b4-fade-4343-9d91-30d3c626b59d]-rw-r--r-- 1 artem artem       855 Dec  4 13:30 helloworld.py
+[MFLOG|0|2022-12-04T08:25:59.457543Z|runtime|f4ff0625-6907-405c-9812-d4f42d521a05]-rw-r--r-- 1 artem artem       444 Dec  4 15:25 main.py
+[MFLOG|0|2022-12-04T08:25:59.457644Z|runtime|72d6fd42-a93d-4854-be22-5393f0113114]-rw-r--r-- 1 artem artem      1076 Dec  4 15:25 metaflow.log
+[MFLOG|0|2022-12-04T08:25:59.457723Z|runtime|17f019f2-2243-4a8a-a354-f1f385ac1368]-rw-r--r-- 1 artem artem       360 Dec  4 12:11 quality_check.py
+[MFLOG|0|2022-12-04T08:25:59.457804Z|runtime|0f955d91-22cb-4b5e-8b32-da02f4cc1578]-rw-r--r-- 1 artem artem   4699745 Dec  4 12:11 ref_genome.fna
+[MFLOG|0|2022-12-04T08:25:59.457882Z|runtime|51f50c08-2d9a-4418-b52d-727fa519cebc]-rw-r--r-- 1 artem artem        12 Dec  4 12:12 ref_genome.fna.amb
+[MFLOG|0|2022-12-04T08:25:59.457955Z|runtime|472909c5-60f5-483c-a775-67d6bfc6f287]-rw-r--r-- 1 artem artem        98 Dec  4 12:12 ref_genome.fna.ann
+[MFLOG|0|2022-12-04T08:25:59.458011Z|runtime|15ab5948-62aa-4804-87f4-44414387c77f]-rw-r--r-- 1 artem artem   4641732 Dec  4 12:12 ref_genome.fna.bwt
+[MFLOG|0|2022-12-04T08:25:59.458082Z|runtime|af7cc8f6-0cc0-478f-8640-ff3a2f1107cc]-rw-r--r-- 1 artem artem   1160415 Dec  4 12:12 ref_genome.fna.pac
+[MFLOG|0|2022-12-04T08:25:59.458159Z|runtime|eccb62ff-bba1-46da-843c-c934c37a9e7f]-rw-r--r-- 1 artem artem   2320880 Dec  4 12:12 ref_genome.fna.sa

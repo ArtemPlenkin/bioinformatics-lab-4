@@ -1,0 +1,2 @@
+[MFLOG|0|2022-12-04T08:42:53.541444Z|runtime|06e5cce2-d855-478b-891d-e0e351e374b2][M::bwa_idx_load_from_disk] read 0 ALT contigs
+[MFLOG|0|2022-12-04T08:42:53.541854Z|runtime|03cbb042-261a-4d1b-8acc-fab50b33697b][E::main_mem] fail to open file `SSRR8533688.fastq.gz'.

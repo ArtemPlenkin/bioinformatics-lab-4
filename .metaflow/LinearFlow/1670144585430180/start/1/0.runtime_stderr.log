@@ -1,0 +1,36 @@
+[MFLOG|0|2022-12-04T09:03:05.850028Z|runtime|42fdf55a-b3db-46b1-b30c-f91b03411e85]Started analysis of SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:06.602502Z|runtime|327cbe45-34dd-4f48-a12a-0c28c62de85f]Approx 5% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:07.158762Z|runtime|6ebf2c12-1e73-42af-ba68-fa1e29470ded]Approx 10% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:07.686360Z|runtime|1812fd85-a064-4ae7-8354-6c333e0aad2c]Approx 15% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:08.208575Z|runtime|11023131-aedb-4652-b068-e43b12a96dd1]Approx 20% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:08.731342Z|runtime|c4e4aac5-0357-4241-be37-fa8222e77acb]Approx 25% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:09.254909Z|runtime|ac8b7dc8-7c1d-4257-833b-026365fd0126]Approx 30% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:09.775428Z|runtime|00515f6d-ede3-46fe-b208-393558eb078c]Approx 35% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:10.298703Z|runtime|90a026f6-76bf-49a7-84b8-f63fe0794319]Approx 40% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:10.835545Z|runtime|f493656e-a2f0-4530-8520-0908f800f187]Approx 45% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:11.339525Z|runtime|b56a7bf9-8f51-497d-99e4-cf0423128ce4]Approx 50% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:11.839425Z|runtime|0821c529-c900-447d-b5a6-20daac083951]Approx 55% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:12.341426Z|runtime|71418601-9b16-4c9f-a9f2-545d82840242]Approx 60% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:12.842877Z|runtime|22e59c05-2411-4411-8296-f04e2072fc2d]Approx 65% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:13.349522Z|runtime|b7137bfc-e0ca-43ea-b516-5b65cfbe0a05]Approx 70% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:13.849961Z|runtime|00b0a8bc-c249-4b9b-9612-2bd1ac934057]Approx 75% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:14.351485Z|runtime|587da13b-3a63-4c6e-a901-5257b0b30faf]Approx 80% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:14.857403Z|runtime|59d0081e-f686-413e-9ed2-8532a20b6401]Approx 85% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:15.361717Z|runtime|dcf8a404-687d-4bde-8e5d-12f5971f3339]Approx 90% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:15.866784Z|runtime|295d36bb-68c3-4197-b5b2-bcef3261a72d]Approx 95% complete for SRR8533688.fastq.gz
+[MFLOG|0|2022-12-04T09:03:18.054796Z|runtime|f3648b5b-b71f-40ee-ad3d-ed5d281dcb27][bwa_index] Pack FASTA... 0.14 sec
+[MFLOG|0|2022-12-04T09:03:19.158945Z|runtime|2764cb5b-ac83-4677-8410-c15fcf24b88e][bwa_index] Construct BWT for the packed sequence...
+[MFLOG|0|2022-12-04T09:03:19.159173Z|runtime|c1043944-5528-4124-807b-26ab0cb6f909][bwa_index] 1.08 seconds elapse.
+[MFLOG|0|2022-12-04T09:03:19.228505Z|runtime|2617d95c-cdaf-4087-a7a3-d0c27b76bc8e][bwa_index] Update BWT... 0.04 sec
+[MFLOG|0|2022-12-04T09:03:19.290850Z|runtime|4ae11f46-af45-41c8-bad4-c7914ca11d18][bwa_index] Pack forward-only FASTA... 0.01 sec
+[MFLOG|0|2022-12-04T09:03:19.779571Z|runtime|a08517cf-6d8b-44e6-841b-08fb46de492d][bwa_index] Construct SA from BWT and Occ... 0.47 sec
+[MFLOG|0|2022-12-04T09:03:19.782951Z|runtime|ae340e79-8f99-4291-b699-dc956eabbc96][main] Version: 0.7.17-r1188
+[MFLOG|0|2022-12-04T09:03:19.783142Z|runtime|0f3fecf8-3fe4-4aa1-b7c5-b991c2f073e9][main] CMD: bwa index ref_genome.fna
+[MFLOG|0|2022-12-04T09:03:19.783235Z|runtime|556e432e-d4ee-4045-b200-1c2bed5efac8][main] Real time: 1.915 sec; CPU: 1.732 sec
+[MFLOG|0|2022-12-04T09:03:19.783327Z|runtime|fd322e18-21aa-43e8-a97b-6393bc8d0642][M::bwa_idx_load_from_disk] read 0 ALT contigs
+[MFLOG|0|2022-12-04T09:03:19.787849Z|runtime|0ce7de58-4540-4876-afc2-029670cbcc29][E::main_mem] fail to open file `SSRR8533688.fastq.gz'.
+[MFLOG|0|2022-12-04T09:03:19.788027Z|runtime|3464055a-fa90-4201-bfdb-914c2c104108]Failed to read header for "result.sam"
+[MFLOG|0|2022-12-04T09:03:19.848259Z|runtime|157b71b6-ff74-47af-b8a8-3a0b672114f6]Traceback (most recent call last):
+[MFLOG|0|2022-12-04T09:03:19.925219Z|runtime|1372a9ca-2589-4239-b369-1208bdc09d6c]  File "/home/artem/bioinformatics-lab-4/quality_check.py", line 7, in <module>
+[MFLOG|0|2022-12-04T09:03:19.925430Z|runtime|c676c8fe-8f9c-431b-8732-4f95e354252b]    symbols = Lines[6].split("(")
+[MFLOG|0|2022-12-04T09:03:19.925553Z|runtime|470c09d3-4d38-4f32-82d2-aeb8c5bfa0ea]IndexError: list index out of range

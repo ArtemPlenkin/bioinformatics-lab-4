@@ -1,0 +1,4 @@
+[MFLOG|0|2022-12-04T08:50:34.174584Z|runtime|b2a3549b-0c76-4434-86f9-02aa7a4c9d1d]Traceback (most recent call last):
+[MFLOG|0|2022-12-04T08:50:34.225470Z|runtime|f5e3b263-f1ee-49c1-a5af-bf14ffe901c2]  File "/home/artem/bioinformatics-lab-4/quality_check.py", line 7, in <module>
+[MFLOG|0|2022-12-04T08:50:34.225628Z|runtime|7a6f1367-f08d-4c5f-b5d1-17956c4b047b]    symbols = Lines[6].split("(")
+[MFLOG|0|2022-12-04T08:50:34.225714Z|runtime|7157e58d-b00a-431a-97ec-a87758b5988e]IndexError: list index out of range

@@ -1,0 +1,9 @@
+[MFLOG|0|2022-12-04T08:42:51.270682Z|runtime|62c60402-2cdf-436d-9817-dbcc16372c97][bwa_index] Pack FASTA... 0.08 sec
+[MFLOG|0|2022-12-04T08:42:52.392856Z|runtime|a3f643d4-1d8d-48d5-83ea-58d214f5d523][bwa_index] Construct BWT for the packed sequence...
+[MFLOG|0|2022-12-04T08:42:52.393127Z|runtime|343d6ef1-8f3c-49a7-bc5a-a5a727b9a5ae][bwa_index] 1.10 seconds elapse.
+[MFLOG|0|2022-12-04T08:42:52.479559Z|runtime|205c6a29-e3b3-4fd2-8a53-bc3ee6c10651][bwa_index] Update BWT... 0.05 sec
+[MFLOG|0|2022-12-04T08:42:52.541757Z|runtime|6ea8a5de-0233-4a7f-bdfb-e3f488fc9212][bwa_index] Pack forward-only FASTA... 0.01 sec
+[MFLOG|0|2022-12-04T08:42:53.116491Z|runtime|e7558e51-d103-4ade-b3be-6fd950d44b8a][bwa_index] Construct SA from BWT and Occ... 0.55 sec
+[MFLOG|0|2022-12-04T08:42:53.184339Z|runtime|42eecaaa-b86f-40b0-9907-782c678b2c01][main] Version: 0.7.17-r1188
+[MFLOG|0|2022-12-04T08:42:53.184494Z|runtime|61662779-9940-4af1-938d-52fe80af5776][main] CMD: bwa index ref_genome.fna
+[MFLOG|0|2022-12-04T08:42:53.184578Z|runtime|c46fec76-9e9d-459e-abce-b875ce3600fa][main] Real time: 2.016 sec; CPU: 1.838 sec
